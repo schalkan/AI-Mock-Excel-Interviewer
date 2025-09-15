@@ -1,0 +1,46 @@
+/* frontend/styles/custom.css */
+
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9fb;
+}
+
+/* Titles */
+h1, h2, h3 {
+    color: #2E86C1;
+    font-weight: 600;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #2E86C1;
+    color: white;
+    border-radius: 6px;
+    padding: 0.6em 1.2em;
+    border: none;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: #1A5276;
+    transform: scale(1.02);
+}
+
+/* Chat message area */
+.stTextArea textarea {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #eef3f8;
+}
+.css-1d391kg .stButton > button {
+    background-color: #2874A6;
+}
+.css-1d391kg .stButton > button:hover {
+    background-color: #1A5276;
+}

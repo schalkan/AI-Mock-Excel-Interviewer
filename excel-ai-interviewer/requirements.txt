@@ -1,0 +1,7 @@
+streamlit
+fastapi
+sqlalchemy
+google-generativeai
+python-dotenv
+pandas
+openpyxl
